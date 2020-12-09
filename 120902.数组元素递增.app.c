@@ -24,12 +24,12 @@ void main()
 		{k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k},
 		{k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k}
 	};
-	printf("这是一个二维数组，元素全为0，程序将为其赋值（从90递减至1）...\n");
+	printf("这是一个二维数组，元素全为0，程序将为其赋值（从1递增至380）...\n");
 	for (y=0;y<19;y++)
 	{
 		for (z=0;z<20;z++)
 		{
-			printf(" %d ",x[y][z]);
+			printf("  %d ",x[y][z]);
 		}
 		printf("\n");
 	}
@@ -39,12 +39,16 @@ void main()
 	{
 		for (z=0;z<20;z++)
 		{
-			x[y][z]=g;
-			printf("%d ",x[y][z]);
-			if (g<=10)
+			if (g<10)
+			{
+				printf("  ");
+			}
+			else if (g>=10&&g<100)
 			{
 				printf(" ");
 			}
+			x[y][z]=g;
+			printf("%d ",x[y][z]);
 			g++;
 		}
 		printf("\n");
