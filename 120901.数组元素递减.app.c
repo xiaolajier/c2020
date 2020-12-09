@@ -3,7 +3,7 @@
 void main()
 {
 	int y,z,k=0,g=90;
-	int x[20][10]={
+	int x[9][10]={
 		{k,k,k,k,k,k,k,k,k,k},
 		{k,k,k,k,k,k,k,k,k,k},
 		{k,k,k,k,k,k,k,k,k,k},
