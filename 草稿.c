@@ -4,7 +4,7 @@
 int main()
 {
 	char a;
-	char b[]="123";
+	char b[]="西游记";
 	int x,y,z=33;
 	printf("欢迎来到*猜数字小游戏*                 密码：\n");
 	Sleep(1000);
