@@ -3,7 +3,7 @@
 #include<string.h>
 int main()
 {
-	char a;
+	char a[50];
 	char b[]="西游记";
 	int x,y,z=33;
 	printf("欢迎来到*猜数字小游戏*                 密码：\n");
